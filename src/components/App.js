@@ -2,14 +2,29 @@ import React from 'react';
 import Navigation from './Navigation/Navigation';
 import Home from './Home/Home';
 import Posts from './Posts/Posts';
+import Gallery from './Gallery/Gallery';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navigation />
-      {/* <Home /> */}
-      <Posts />
-    </div>
+      <Switch>
+
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route path="/posts">
+          <Posts />
+        </Route>
+
+        <Route path="/gallery">
+          <Gallery />
+        </Route>
+
+      </Switch>
+    </Router>
   );
 }
 
