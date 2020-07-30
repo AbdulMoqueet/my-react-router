@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3bd1439c-121b-47b9-9b06-e1b4982010f9/deploy-status)](https://app.netlify.com/sites/moqueet-my-react-router/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3bd1439c-121b-47b9-9b06-e1b4982010f9/deploy-status)](https://moqueet-my-react-router.netlify.app/)
 
 ### Handling Routing in React SPA App. (react, react-router, react-dom, react-router-dom.)
 #Live at: https://moqueet-my-react-router.netlify.app/
