@@ -1,0 +1,27 @@
+.navigation{
+    position: fixed;
+    top: 0;
+    background-color: blueviolet;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover,
+a:active{
+    color: chartreuse;
+}
