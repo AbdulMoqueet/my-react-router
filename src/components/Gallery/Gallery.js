@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../Reusable/Card/Card';
 import Styles from './Gallery.module.css';
+import Footer from '../Footer/Footer';
 
 const Gallery = () => {
 
@@ -14,6 +15,7 @@ const Gallery = () => {
         <div className={Styles.gallery}>
             <Card text="Gallery"
             style={customStyle} />
+            <Footer />
         </div>
     );
 }
