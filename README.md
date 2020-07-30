@@ -1,3 +1,5 @@
+## Handling Routing in React SPA App. Using: react, react-router, react-dom, react-router-dom. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
